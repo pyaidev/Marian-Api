@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e9301d-2e59-480b-90d1-cbdede4f805f" name="Changes" comment="git commit -m &quot;Accounts, blog and comment completed&quot;" />
+    <list default="true" id="44e9301d-2e59-480b-90d1-cbdede4f805f" name="Changes" comment="git commit -m &quot;Accounts, blog and comment completed&quot;">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +92,7 @@
       <workItem from="1668082952679" duration="10453000" />
       <workItem from="1668138179607" duration="696000" />
       <workItem from="1668156250683" duration="599000" />
-      <workItem from="1668188095797" duration="2747000" />
+      <workItem from="1668188095797" duration="3052000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m &quot;Accounts, blog and comment completed&quot;">
       <created>1668190413897</created>
@@ -113,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668190519388</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="git commit -m &quot;Accounts, blog and comment completed&quot;">
+      <created>1668190961229</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668190961229</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
