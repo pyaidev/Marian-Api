@@ -5,5 +5,5 @@ from rest_framework.routers import DefaultRouter
 router = DefaultRouter()
 router.register(r'contacts', ContactApiViewSet)
 urlpatterns = [
-    path('', include(router.urls)),
+    path('list-service/', include(router.urls)),
 ]

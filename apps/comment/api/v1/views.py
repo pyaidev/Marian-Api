@@ -25,7 +25,6 @@ class CommentListCreateView(generics.ListCreateAPIView):
         parent = serializer.validated_data.get('parent', None)
         serializer.save(post_id=post_id, author_id=author_id, parent=parent)
 
-
 class CommentDeleteView(generics.DestroyAPIView):
     # http://127.0.0.1:8000/api/comment/v1/<post_id>/delete/<comment_id>/
     queryset = Comment.objects.all()
