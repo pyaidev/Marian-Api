@@ -39,3 +39,10 @@ class BlogSerializer(serializers.ModelSerializer):
 
         return blog
 
+    def validate_title(self, attrs):
+        user = self.context['request'].user
+        posts = Blog.objects.filter(title__icontains=attrs, author_id=user.id)
+        if posts:
+            raise serializers.ValidationError('Sizda bu title oldin qoshilgan')
+        return attrs
+

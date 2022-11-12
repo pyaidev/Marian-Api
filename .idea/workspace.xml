@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44e9301d-2e59-480b-90d1-cbdede4f805f" name="Changes" comment="git commit -m &quot;Accounts, blog and comment completed&quot;">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/api/v1/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/api/v1/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/api/v1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/api/v1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/marian/api/v1/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/marian/api/v1/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/pages/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +98,7 @@
       <workItem from="1668138179607" duration="696000" />
       <workItem from="1668156250683" duration="599000" />
       <workItem from="1668188095797" duration="3052000" />
+      <workItem from="1668244391466" duration="4964000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m &quot;Accounts, blog and comment completed&quot;">
       <created>1668190413897</created>

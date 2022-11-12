@@ -23,11 +23,12 @@ class BloglistView(generics.ListCreateAPIView):
     # http://127.0.0.1:8000/api/blog/v1/blog-list-create/
     queryset = Blog.objects.all()
     serializer_class = BlogSerializer
+    # permission_classes = [IsOwnUserOrReadOnly, permissions.IsAuthenticated, permissions.IsAdminUser]
 
 
 class BlogRetriveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
     # http://127.0.0.1:8000/api/blog/v1/blog-rud/<int:pk>/
     queryset = Blog.objects.all()
     serializer_class = BlogSerializer
-    permission_classes = [IsOwnUserOrReadOnly, permissions.IsAuthenticated]
+    permission_classes = [IsOwnUserOrReadOnly,  permissions.IsAuthenticated, permissions.IsAdminUser]
 
