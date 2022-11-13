@@ -31,7 +31,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'rest_framework_simplejwt',
     'rest_framework',
-
+    'django_filters',
     'apps.accounts',
     'apps.blog',
     'apps.contact',
@@ -156,6 +156,9 @@ REST_FRAMEWORK = {
     # ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
+    ],
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend'
     ]
 }
 

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e9301d-2e59-480b-90d1-cbdede4f805f" name="Changes" comment="git commit -m &quot;Accounts, blog and comment completed&quot;">
+    <list default="true" id="44e9301d-2e59-480b-90d1-cbdede4f805f" name="Changes" comment="validate title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/blog/api/v1/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/api/v1/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/blog/api/v1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/api/v1/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/marian/api/v1/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/marian/api/v1/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/pages/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/pages/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +95,9 @@
       <workItem from="1668138179607" duration="696000" />
       <workItem from="1668156250683" duration="599000" />
       <workItem from="1668188095797" duration="3052000" />
-      <workItem from="1668244391466" duration="4964000" />
+      <workItem from="1668244391466" duration="5634000" />
+      <workItem from="1668270682492" duration="400000" />
+      <workItem from="1668351294861" duration="4222000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m &quot;Accounts, blog and comment completed&quot;">
       <created>1668190413897</created>
@@ -128,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668190961229</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="validate title">
+      <created>1668249553866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668249553866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git commit -m &quot;Accounts, blog and comment completed&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Accounts, blog and comment completed&quot;" />
+    <MESSAGE value="validate title" />
+    <option name="LAST_COMMIT_MESSAGE" value="validate title" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
