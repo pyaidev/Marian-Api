@@ -6,7 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="44e9301d-2e59-480b-90d1-cbdede4f805f" name="Changes" comment="validate title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/blog/api/v1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/api/v1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/marian/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/marian/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/marian/api/v1/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/marian/api/v1/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/marian/api/v1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/marian/api/v1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/marian/api/v1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/marian/api/v1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/marian/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/marian/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/marian/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/api/v1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/api/v1/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/api/v1/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/api/v1/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/api/v1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/api/v1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/api/v1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/api/v1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +44,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/env/lib/python3.10/site-packages/django/__init__.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/env/lib/python3.10/site-packages/django/db/utils.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/env/lib/python3.10/site-packages/django/forms/models.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/env/lib/python3.10/site-packages/django/utils/functional.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/env/lib/python3.10/site-packages/rest_framework/serializers.py" root0="SKIP_INSPECTION" />
@@ -58,6 +77,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="config.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -98,6 +118,9 @@
       <workItem from="1668244391466" duration="5634000" />
       <workItem from="1668270682492" duration="400000" />
       <workItem from="1668351294861" duration="4222000" />
+      <workItem from="1668407409030" duration="2444000" />
+      <workItem from="1668414950855" duration="2854000" />
+      <workItem from="1668516946427" duration="11174000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m &quot;Accounts, blog and comment completed&quot;">
       <created>1668190413897</created>

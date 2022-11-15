@@ -1,8 +1,13 @@
-from rest_framework import generics,permissions
+from django.db.models import Q
+from django.http import HttpResponse
+from django.shortcuts import get_object_or_404
+from requests import Response
+from rest_framework import generics,permissions, status
+from rest_framework.permissions import IsAuthenticated
 
 from .permissions import IsOwnUserOrReadOnly
-from ...models import Service, Room
-from .serializers import ServiceSerializer, RoomSerializer
+from ...models import Service, Room, Booking
+from .serializers import ServiceSerializer, RoomSerializer, BookingSerializer
 
 
 class ServiceListView(generics.ListAPIView):
@@ -36,4 +41,40 @@ class ServiceRetriveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Service.objects.all()
     serializer_class = ServiceSerializer
     permission_classes = [IsOwnUserOrReadOnly, permissions.IsAuthenticated]
+
+
+# class BookingCreateAPIView(generics.CreateAPIView):
+#     # http://127.0.0.1:8000/api/marian/booking/<int:pk>/
+#     permission_classes=[IsAuthenticated]
+#     queryset = Booking.objects.all()
+#     serializer_class = BookingSerializer
+    #
+    # def perform_create(self, serializer):
+    #
+    #     # user = self.request.user
+    #     package = get_object_or_404(Room, pk= self.kwargs['pk'])
+    #     serializer.save(user=self.request.user, package=package)
+    #
+    # def get(self, request):
+    #     bookings = Booking.objects.get(user=request.user)
+    #     return HttpResponse(bookings)
+
+
+class BookFilter(generics.ListCreateAPIView):
+    queryset = Booking.objects.all()
+    serializer_class = BookingSerializer
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get_queryset(self):
+        qs = super(BookFilter, self).get_queryset()
+        a = self.request.POST.get('a')
+        b = self.request.POST.get('b')
+        print(a)
+        print(b)
+        print(qs)
+        if a and b:
+            qs = qs.filter(~Q(s_d__range=[a, b]) or ~Q(e_d__range=[a, b]))
+        return qs
+
+
 
