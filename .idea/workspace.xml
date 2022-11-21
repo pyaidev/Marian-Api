@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="44e9301d-2e59-480b-90d1-cbdede4f805f" name="Changes" comment="validate title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/blog/api/v1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/api/v1/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/wallet/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/wallet/api/v1/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/api/v1/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/wallet/api/v1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/api/v1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/wallet/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/wallet/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/env/lib/python3.10/site-packages/django/__init__.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/env/lib/python3.10/site-packages/django/db/utils.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/env/lib/python3.10/site-packages/django/forms/models.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/env/lib/python3.10/site-packages/django/utils/functional.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/env/lib/python3.10/site-packages/rest_framework/serializers.py" root0="SKIP_INSPECTION" />
@@ -39,18 +42,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nurmuhammad/portfolio/marian&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/nurmuhammad/portfolio/marian",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="marian" type="Python.DjangoServer" factoryName="Django server">
       <module name="marian" />
@@ -98,6 +101,11 @@
       <workItem from="1668244391466" duration="5634000" />
       <workItem from="1668270682492" duration="400000" />
       <workItem from="1668351294861" duration="4222000" />
+      <workItem from="1668571789229" duration="1060000" />
+      <workItem from="1668922692305" duration="1261000" />
+      <workItem from="1668958213337" duration="631000" />
+      <workItem from="1668965691233" duration="411000" />
+      <workItem from="1669057578704" duration="2463000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m &quot;Accounts, blog and comment completed&quot;">
       <created>1668190413897</created>
