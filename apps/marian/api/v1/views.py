@@ -61,6 +61,7 @@ class ServiceRetriveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
 
 
 class BookFilter(generics.ListCreateAPIView):
+    # http://127.0.0.1:8000/api/marian/booking/
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
     permission_classes = [permissions.IsAuthenticated]
@@ -76,5 +77,16 @@ class BookFilter(generics.ListCreateAPIView):
             qs = qs.filter(~Q(s_d__range=[a, b]) or ~Q(e_d__range=[a, b]))
         return qs
 
+    def perform_create(self, serializer):
+        serializer = self.serializer_class(data=self.request.data, context={"request": self.request})
+        room = Room.objects.get(id=self.request.POST.get('package'))
+        room.empty = True
+        room.check_in = self.request.POST.get('start_day')
+        room.check_out = self.request.POST.get('end_day')
+        author_id = self.request.user.id
+        print(author_id)
+        if serializer.is_valid():
+            serializer.save(package=room, user_id=author_id)
+            room.save()
 
 

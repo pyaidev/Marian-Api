@@ -4,6 +4,7 @@ from django.db import models
 from django.utils import timezone
 
 from apps.accounts.models import Account
+from config import settings
 
 
 class Service(models.Model):
@@ -31,14 +32,14 @@ class Room(models.Model):
 
 
 class Booking(models.Model):
-    user = models.ForeignKey(Account, on_delete=models.CASCADE, blank=True)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, blank=True)
     package = models.ForeignKey(Room, on_delete=models.CASCADE)
-    name = models.CharField(max_length=255)
     email = models.EmailField()
+    show=models.BooleanField(default=True)
     phone = models.CharField(max_length=255)
     s_d = models.DateField(null=True)
     e_d = models.DateField(null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.name
+        return self.user.username
